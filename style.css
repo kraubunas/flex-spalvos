@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(img/header.jpg);
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    width: 90%;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid white;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+button {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: -8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: turquoise;
+    border: 3px solid turquoise;
+    cursor: pointer;
+}
+
+.blur {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #242943;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 2120px;
+}
+
+.aliquam {
+    background-image: url(img/aliquam.jpg);
+    width: 40%;
+    max-height: 430px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.aliquam .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #6fc3df;
+    transition: opacity 0.3s;
+}
+
+.aliquam .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+ .text1 {
+    position: relative;
+    margin-left: 60px;
+    margin-top: -348px;
+    width: 45%;
+    color: white;
+}
+
+.tempus {
+    background-image: url(img/tempus.jpg);
+    width: 60%;
+    max-height: 430px;
+    background-size: cover;    
+    background-position: 50% 50%;
+}
+.tempus .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #8d82c4;
+    transition: opacity 0.3s;
+}
+
+.tempus .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+
+.magna {
+    background-image: url(img/magna.jpg);
+    width: 60%;
+    max-height: 430px;
+    background-size: cover;    
+    background-position: 50% 50%;
+}
+.magna .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #ec8d81;
+    transition: opacity 0.3s;
+}
+
+.magna .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+
+.ipsum {
+    background-image: url(img/ipsum.jpg);
+    width: 40%;
+    max-height: 430px;
+    background-size: cover;    
+    background-position: 50% 50%;
+}
+.ipsum .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #e7b788;
+    transition: opacity 0.3s;
+}
+
+.ipsum .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+
+.consequat {
+    background-image: url(img/censequat.jpg);
+    width: 40%;
+    max-height: 430px;
+    background-size: cover;    
+    background-position: 50% 50%;
+}
+.consequat .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #8ea9e8;
+    transition: opacity 0.3s;
+}
+
+.consequat .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+
+.etiam {
+    background-image: url(img/etiam.jpg);
+    width: 60%;
+    max-height: 430px;
+    background-size: cover;    
+    background-position: 50% 50%;
+}
+.etiam .overlay {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background: #87c5a4;
+    transition: opacity 0.3s;
+}
+
+.etiam .overlay:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background: #2a304a;
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+
+.text2 {
+    display: block;
+    text-align: justify;
+    margin:  -50px 0px 0px 80px;
+}
+
+.text2 h1 {
+    font-size: 35px;
+    padding-bottom: 0px;
+    width: 25%;
+    border-bottom: 3px solid white;
+}
+
+.text2 p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.text2 button {
+    margin: 30px 0 0 0;
+}
+
+footer {
+    background: #232943;
+    margin-top: -430px;
+    width: 100%;
+    height: 430px;
+}
+
+.logo {
+    padding-top: 120px;
+    padding-left: 80px;
+}
